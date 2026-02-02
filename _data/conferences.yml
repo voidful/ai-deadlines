@@ -1,3 +1,42 @@
+- title: Interspeech
+  year: 2026
+  id: interspeech26
+  link: http://interspeech2026.org/
+  deadline: '2026-02-25 23:59:59'
+  abstract_deadline: '2026-02-25 23:59:59'
+  timezone: UTC-12
+  place: Sydney, Australia
+  date: September 27 - October 1, 2026
+  start: 2026-09-27
+  end: 2026-10-01
+  sub: SP
+
+- title: SLT
+  year: 2026
+  id: slt26
+  link: https://2026.ieeeslt.org/
+  deadline: '2026-07-17 00:00:00'
+  abstract_deadline: '2026-07-11 23:59:59'
+  timezone: UTC
+  place: Palermo, Italy
+  date: December 13-16, 2026
+  start: 2026-12-13
+  end: 2026-12-16
+  sub: SP
+
+- title: ECCV
+  year: 2026
+  id: eccv26
+  link: https://eccv.ecva.net/
+  deadline: '2026-03-05 22:00:00'
+  abstract_deadline: '2026-02-26 22:00:00'
+  timezone: UTC
+  place: Malmö, Sweden
+  date: September 8-13, 2026
+  start: 2026-09-08
+  end: 2026-09-13
+  sub: CV
+
 - title: AISTATS
   year: 2025
   id: aistats25
