@@ -15,7 +15,6 @@ function addUtcTimeZones() {
 }
 
 function update_filtering(data) {
-  var page_url = "{{site.baseurl}}";
   store.set("{{site.domain}}-subs", data.subs);
 
   $(".confItem").hide();
@@ -25,12 +24,6 @@ function update_filtering(data) {
     if (data.subs.includes(s)) {
       $(identifier).show();
     }
-  }
-
-  if (subs.length == 0) {
-    window.history.pushState("", "", page_url);
-  } else {
-    window.history.pushState("", "", page_url + "/?sub=" + data.subs.join());
   }
 }
 
