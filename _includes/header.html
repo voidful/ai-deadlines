@@ -28,16 +28,22 @@
           <a href="{{site.baseurl}}/calendar" class="nav-link" style="border-bottom: none;">Calendar</a>
         </li>
       </ul>
-      <div class="twitter-github-icons">
-        <a href="https://twitter.com/share" class="twitter-share-button"
-          data-text="{{ site.description }}{% if site.twitter.hashtag %} #{{ site.twitter.hashtag }}{% endif %}"
-          data-show-count="false" style="font-size: 13px;">Tweet</a>
-        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-        &nbsp; &nbsp;
-        <iframe
-          src="https://ghbtns.com/github-btn.html?user={{ site.github_username }}&repo={{ site.github_repo }}&type=star&count=true"
-          frameborder="0" scrolling="0" width="95px" height="20px"></iframe>
+      <div class="fullscreen-btn-container">
+        <button id="fullscreen-btn" class="btn btn-outline-light btn-sm" title="Toggle Fullscreen">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" id="fullscreen-icon">
+            <path d="M1.5 1a.5.5 0 0 0-.5.5v4a.5.5 0 0 1-1 0v-4A1.5 1.5 0 0 1 1.5 0h4a.5.5 0 0 1 0 1h-4zM10 .5a.5.5 0 0 1 .5-.5h4A1.5 1.5 0 0 1 16 1.5v4a.5.5 0 0 1-1 0v-4a.5.5 0 0 0-.5-.5h-4a.5.5 0 0 1-.5-.5zM.5 10a.5.5 0 0 1 .5.5v4a.5.5 0 0 0 .5.5h4a.5.5 0 0 1 0 1h-4A1.5 1.5 0 0 1 0 14.5v-4a.5.5 0 0 1 .5-.5zm15 0a.5.5 0 0 1 .5.5v4a1.5 1.5 0 0 1-1.5 1.5h-4a.5.5 0 0 1 0-1h4a.5.5 0 0 0 .5-.5v-4a.5.5 0 0 1 .5-.5z"/>
+          </svg>
+        </button>
       </div>
+      <script>
+        document.getElementById('fullscreen-btn').addEventListener('click', function() {
+          if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen();
+          } else {
+            document.exitFullscreen();
+          }
+        });
+      </script>
     </div>
   </div>
 </nav>
