@@ -37,3 +37,16 @@
   end: 2026-09-13
   sub: CV
 
+- title: NeurIPS
+  year: 2026
+  id: neurips26
+  link: https://neurips.cc/
+  deadline: '2026-05-06 23:59:59'
+  abstract_deadline: '2026-05-04 23:59:59'
+  timezone: UTC-12
+  place: Sydney, Australia
+  date: December 6-12, 2026
+  start: 2026-12-06
+  end: 2026-12-12
+  sub: ML
+
