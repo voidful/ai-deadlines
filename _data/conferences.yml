@@ -14,15 +14,40 @@
 - title: SLT
   year: 2026
   id: slt26
-  link: https://2026.ieeeslt.org/
-  deadline: '2026-07-17 00:00:00'
-  abstract_deadline: '2026-07-11 23:59:59'
-  timezone: UTC
-  place: Palermo, Italy
+  link: https://attend.ieee.org/slt-2026/
+  deadline: '2026-06-24 23:59:59'
+  abstract_deadline: '2026-06-17 23:59:59'
+  timezone: UTC-12
+  place: Palermo, Sicily, Italy
   date: December 13-16, 2026
   start: 2026-12-13
   end: 2026-12-16
   sub: SP
+
+- title: ISCSLP
+  year: 2026
+  id: iscslp26
+  link: https://iscslp.org/2026/
+  deadline: '2026-06-12 23:59:59'
+  timezone: UTC-12
+  place: Penang, Malaysia
+  date: November 14-17, 2026
+  start: 2026-11-14
+  end: 2026-11-17
+  sub: SP
+
+- title: NAACL
+  year: 2027
+  id: naacl27
+  link: https://naacl.org/conferences/index.html
+  deadline: '2026-10-12 23:59:59'
+  timezone: UTC-12
+  place: TBA
+  date: TBA
+  start: ""
+  end: ""
+  sub: NLP
+  note: ARR submission deadline; official NAACL 2027 CFP and commitment deadline are not announced yet.
 
 - title: ECCV
   year: 2026
@@ -49,4 +74,3 @@
   start: 2026-12-06
   end: 2026-12-12
   sub: ML
-
